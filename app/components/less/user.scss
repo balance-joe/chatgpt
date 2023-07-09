@@ -1,0 +1,148 @@
+.page-user {
+  //padding: 20px;
+
+  .top-header {
+    display: flex;
+
+    .left {
+      flex: 0 0 60px;
+      .cover {
+        width: 60px;
+        height: 60px;
+        background-color: #eee;
+        border-radius: 50%;
+        background-size: cover;
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding-left: 20px;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+  }
+
+  .get-vip {
+    display: flex;
+    align-items: center;
+    height: 52px;
+    background-image: url(https://chath5.sj088.cn/file/uploadPath/2023/03/28/6779aea820079c8507852d8622cc4ce4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #eee;
+    border-radius: 10px;
+    margin: 20px 0;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+
+    .left {
+      .t2 {
+        vertical-align: top;
+        img {
+          width: 78px;
+          height: auto;
+          position: relative;
+          top: 1px;
+        }
+      }
+      .t3 {
+        color: rgb(145, 64, 22);
+        font-weight: bold;
+        padding-left: 10px;
+      }
+      display: flex;
+      align-items: center;
+    }
+
+    .right {
+      color: rgb(145, 64, 22);
+    }
+  }
+
+  .card-type {
+    display: flex;
+    .space {
+      flex: 0 0 10px;
+    }
+
+    .type-item {
+      height: 76px;
+      flex: 1;
+      border-radius: 12px;
+
+    }
+    .type1 {
+      background: linear-gradient(-90deg,#fcf0db,#fffaee);
+      padding: 15px 0 0 15px;
+      box-sizing: border-box;
+      .t1 {
+        img {
+          width: 78px;
+          height: auto;
+        }
+      }
+
+      .t2 {
+        color: rgb(211, 167, 103);
+        font-size: 14px;
+        padding-top: 3px;
+      }
+    }
+
+    .type2 {
+
+      background: linear-gradient(-90deg,#e1e2fc,#f6f6ff);
+      padding: 15px 0 0 15px;
+      box-sizing: border-box;
+      .t1 {
+        img {
+          width: 78px;
+          height: auto;
+        }
+      }
+
+      .t2 {
+        color: rgb(120, 106, 208);
+        font-size: 14px;
+        padding-top: 3px;
+      }
+    }
+  }
+
+  .card-controller {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 2px 17px;
+    border-radius: 7px;
+
+    .card-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 18px 0;
+
+      .left {
+        display: flex;
+        align-items: center;
+        img {
+          width: 31px;
+          height: 31px;
+        }
+        span {
+          font-size: 14px;
+          color: #333;
+          margin-left: 10px;
+        }
+      }
+      .right {
+        img {
+          width: 10px;
+        }
+      }
+    }
+  }
+}

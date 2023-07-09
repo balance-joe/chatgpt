@@ -15,6 +15,17 @@ export enum Path {
   NewChat = "/new-chat",
   Masks = "/masks",
   Auth = "/auth",
+  Login = "/login",
+  Register = "/register",
+  Package = "/package",
+  Pay = "/pay",
+  User = "/user",
+  ResidueLog = "/user/residue-log",
+  System = "/system",
+  AboutUs = "/system/about_us",
+  PrivacyAgreement = "/system/privacy_agreement",
+  UserAgreement = "/system/user_agreement",
+  Help = "/system/help",
 }
 
 export enum SlotID {

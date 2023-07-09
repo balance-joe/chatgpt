@@ -287,6 +287,24 @@ const cn = {
     Topic: "主题",
     Time: "时间",
   },
+  User: {
+    Login: {
+      Title: "登录",
+      SubTitle: "进入未来世界",
+    },
+    Register: {
+      Title: "注册",
+      SubTitle: "加入走进未来世界的洪流之中",
+    },
+    Center: "会员中心",
+    Logout: "退出登录",
+    Email: "邮箱",
+    Password: "密码",
+    CatchCode: "图形验证码",
+    SendCode: "发送验证码",
+    FindPassword: "找回密码",
+    ShareCode: "邀请码",
+  },
 };
 
 type DeepPartial<T> = T extends object

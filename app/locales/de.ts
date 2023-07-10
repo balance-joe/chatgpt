@@ -61,14 +61,7 @@ const de: PartialLocaleType = {
   Settings: {
     Title: "Einstellungen",
     SubTitle: "Alle Einstellungen",
-    Actions: {
-      ClearAll: "Alle Daten löschen",
-      ResetAll: "Alle Einstellungen zurücksetzen",
-      Close: "Schließen",
-      ConfirmResetAll:
-        "Möchten Sie wirklich alle Konfigurationen zurücksetzen?",
-      ConfirmClearAll: "Möchten Sie wirklich alle Chats zurücksetzen?",
-    },
+
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
       All: "Alle Sprachen",
@@ -94,8 +87,10 @@ const de: PartialLocaleType = {
       SubTitle: "Preview markdown in bubble",
     },
     Mask: {
-      Title: "Mask Splash Screen",
-      SubTitle: "Show a mask splash screen before starting new chat",
+      Splash: {
+        Title: "Mask Splash Screen",
+        SubTitle: "Show a mask splash screen before starting new chat",
+      },
     },
     Prompt: {
       Disable: {

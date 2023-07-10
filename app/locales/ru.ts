@@ -61,13 +61,7 @@ const ru: PartialLocaleType = {
   Settings: {
     Title: "Настройки",
     SubTitle: "Все настройки",
-    Actions: {
-      ClearAll: "Очистить все данные",
-      ResetAll: "Сбросить все настройки",
-      Close: "Закрыть",
-      ConfirmResetAll: "Вы уверены, что хотите сбросить все настройки?",
-      ConfirmClearAll: "Вы уверены, что хотите очистить все данные?",
-    },
+
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
       All: "Все языки",
@@ -93,8 +87,10 @@ const ru: PartialLocaleType = {
       SubTitle: "Предварительный просмотр markdown в пузыре",
     },
     Mask: {
-      Title: "Экран заставки маски",
-      SubTitle: "Показывать экран заставки маски перед началом нового чата",
+      Splash: {
+        Title: "Экран заставки маски",
+        SubTitle: "Показывать экран заставки маски перед началом нового чата",
+      },
     },
     Prompt: {
       Disable: {
